@@ -35,29 +35,38 @@ angular.module("angular", [])
 				Id: 0,
 				Name: "Josefina Pérez",
 				Photo: "josefina.jpg",
-				Quote: "Viajar es vivir",
+				Quote: "Cuanto más hacemos, más podemos hacer",
 				Age: 65,
 				Occupation: "Celadora jubilada",
-				Family: "Divorciada, con dos hijos independientes y 3 nietos",
+				Family: "Divorciada, con dos hijos independientes y tres nietos",
 				Location: "Granada",
-				Character: "Le gusta viajar y leer",
+				Character: "Le gusta viajar, leer. Es muy activa y le gusta salir con sus amigas.",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 2 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 4 },
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 1 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 2 },
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
 					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 3 }
 				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Ver a sus hijos y a sus nietos más a menudo", "Aprender alemán para hablar con sus nietos"],
-				Frustrations: ["No ve a sus hijos frecuentemente porque viven en otro país", "Aunque se defiende con las nuevas tecnologías, le gustaría manejarse mejor", "Como está divorciada y sus hijos viven en Alemania, a veces se siente sola"],
-				Bio: "Es de Granada y ha vivido aquí toda su vida. Hace tres meses que está jubilada; hasta entonces trabajaba de celadora. Se casó con 20 años, con 23 tuvo su primer hijo, y con 27 el segundo. Hace doce años que sus hijos se fueron a trabajar a Alemania y después de visitarlos, descubrió que le gustaba viajar.",
+				Goals: ["Disfrutar del tiempo libre, viajar.", "Ver a sus hijos y a sus nietos más a menudo.", "Aprender alemán para hablar con sus nietos."],
+				Frustrations: ["No ve a sus hijos tanto como le gustaría porque viven en otro país ", "Como está divorciada y sus hijos viven en Alemania, a veces se siente sola, y le preocupa su futuro." ],
+				Bio:"Nació en Granada y ha vivido aquí toda su vida. Es hija única, sus padre murió hace diez años y su madre hace siete años. Lleva tres meses jubilada; hasta entonces trabajaba de celadora en un hospital. Se casó con 20 años, con 23 tuvo su primer hijo " +
+				    "y con 27 el segundo. Se divorció con 48 años. " + 
+					"Su hijo mayor estudió arquitectura y su hijo pequeño estudió ingeniería aeroespacial. Despues de terminar la carrera, ambos se fueron a trabajar a Alemania, donde se han casado y han tenido hijos. " +
+					"Josefina los ha visitado todos los años desde que se fueron, hace ya 15 años. Tras estas visitas, se ha despertó su interés por los viajes: desde entonces, ha ido a Londres, Viena, París, Roma, Milán, Florencia, Praga y Cracovia. " +
+					"Después de divorciarse, perdió el contacto con su exmarido. Tuvo otras dos parejas pero no conectó con ninguno. " +
+					"Tiene muchas amigas con las que queda casi diariamente; es parte de asociaciones de vecinos y de un club de lectura. También está apuntada a clases de Alemán. " +
+					"Lleva diez años apuntada a un gimnasio, va todos los lunes y jueves a clase de yoga, y los martes y viernes a natación. " +
+					"Ha aprendido a utilizar su teléfono y las redes sociales para mantener el contacto con su familia. Utiliza Skype, Whatsapp y Facebook frecuentemente. ",
 				Tech: [
-					{ Name: "TIC/Internet", Value: 2 },
-					{ Name: "Movil", Value: 2 },
-					{ Name: "RRSS", Value: 1 },
+					{ Name: "TIC/Internet", Value: 3 },
+					{ Name: "Movil", Value: 3 },
+					{ Name: "RRSS", Value: 2 },
 					{ Name: "Software", Value: 1 }
 					
 				], 
-                Contextos: "Ahora que se que acaba de jubilar, tiene mucho tiempo libre y quiere ocurparlo viajando.",  
+				Contextos: "Ahora que se que acaba de jubilar, tiene mucho tiempo libre y quiere viajar más. Lleva tres años en clases de Alemán. " +
+				"También hace yoga y natación a menudo, para mantenerse en forma. Utiliza las redes sociales desde su móvil para hablar con su familia. " +
+				"Forma parte de un club de lectura. Su género literario favorito es la novela, especialmente la novela histórica",  
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional", Value: 3 },
 					{ Name: "Online & Social Media", Value: 1 },
