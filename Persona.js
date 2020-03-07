@@ -90,7 +90,7 @@ angular.module("angular", [])
 				Occupation: "Estudiante de idiomas",
 				Family: "sus padres y su hermana",
 				Location: "Granada",
-				Character: "Es muy extrovertido, le encanta conocer gente nueva, viajar y conocer otras culturas",
+				Character: "Es muy extrovertido, le encanta conocer gente nueva, viajar , conocer otras culturas",
 				PersonalityTraits: [
 					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 5 },
 					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 4 },
@@ -98,7 +98,7 @@ angular.module("angular", [])
 					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 4 }
 				], 
 				Goals: ["Aprender nuevos idiomas.", "Conocer gente de todo el mundo.", "Visitar todos los países de Europa."],
-				Frustrations: ["No tiene mucho dinero para viajar.", "Solo puede viajar durante sus vacaciones."],
+				Frustrations: ["No tiene mucho dinero.", "Solo puede viajar durante sus vacaciones.", "Haber dejado de tocar el piano."],
 				Bio: "Es de Jaén y vino a Granada a estudiar Traducción e Interpretación. Vive en un piso de alquiler con otros tres estudiantes. Durante el curso, trabaja como camarero, y ahorra lo que puede para viajar durante las vacaciones.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 4 },
@@ -107,7 +107,11 @@ angular.module("angular", [])
 					{ Name: "Software", Value: 3 }
 					
 				], 
-                Contextos:   "Siempre le ha gustado viajar, y ahora que estudia Traducción e Interpretación además aprovecha sus viajes para aprender idiomas y conocer la cultura del lugar que visita." ,
+				Contextos:   "Siempre le ha gustado viajar, y ahora que estudia Traducción e Interpretación además aprovecha sus viajes para aprender idiomas y "
+				+ "conocer la cultura del lugar que visita. En su tiempo libre, practica padel con su grupo de amigos. Su padre se llama Roberto, tiene 48 años y trabaja de cocinero,"
+				+ "su madre se llama María, tiene 47 años y trabaja en una farmacia y su hermana se llama Laura, tiene 19 años y es estudiante de Derecho. Hace unos años, " 
+				+ "aprendió a tocar el piano pero lo dejó, ya que tuvo que irse a estudiar fuera. Su relación con sus padres es bastante buena y cada dos fines de semana vuelve a su casa "
+				+ "para estar con ellos.",
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional (Ads)", Value: 2 },
 					{ Name: "Online & Social Media", Value: 3 },
