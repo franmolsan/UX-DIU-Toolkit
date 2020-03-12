@@ -111,7 +111,8 @@ angular.module("angular", [])
 				+ "conocer la cultura del lugar que visita. En su tiempo libre, practica padel con su grupo de amigos. Su padre se llama Roberto, tiene 48 años y trabaja de cocinero,"
 				+ "su madre se llama María, tiene 47 años y trabaja en una farmacia y su hermana se llama Laura, tiene 19 años y es estudiante de Derecho. Hace unos años, " 
 				+ "aprendió a tocar el piano pero lo dejó, ya que tuvo que irse a estudiar fuera. Su relación con sus padres es bastante buena y cada dos fines de semana vuelve a su casa "
-				+ "para estar con ellos.",
+				+ "para estar con ellos. Mario va al gimnasio con un compañero que conoció allí 4 días a la semana. No le gusta salir mucho de fiesta y solo sale unas cuantas veces"
+				+ "al año.",
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional (Ads)", Value: 2 },
 					{ Name: "Online & Social Media", Value: 3 },
