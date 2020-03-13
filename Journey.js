@@ -34,7 +34,7 @@ angular.module("angular", [])
                 /*************************************/
                 
 				Id: 0,
-				Name: "Josefina",
+				Name: "Josefina Pérez",
                 Photo: "josefina.jpg",
     
                 /*** PASO #1: INSPIRACION ***/ 
@@ -92,57 +92,52 @@ angular.module("angular", [])
                 /*************************************/
                 
 				Id: 1,
-				Name: "Monica Suarez",
-                Photo: "woman.png",
+				Name: "Mario Fernández",
+                Photo: "Mario.jpg",
                 
 				 /*** PASO #1: INSPIRACION ***/ 
-                goal1: "Quiere preparar un viaje con su familia para Verano, tiene sólo 15 dias libres",
-                touch1: "agenda",
+                goal1: "Hace tiempo conoció a un grupo de estudiantes polacos, y ahora que se acercan las vaciones quiere planear un viaje a Polonia. ",
+                touch1: "Móvil (calendario)",
                 feel1: "5",
-                con1: "Quiere ir a un pais exotico pero que tenga atracciones para niños pequeños",
+                con1: "Su presupuesto para viajar es limitado",
                 ima1: "cartoon-going.png",
                 
-                /*** PASO #2: DECICION ***/ 
-                goal2: "Ir a una agencia de viajes, y decirle sus preferencias y planes",
-                touch2: "Servicio (agencia)",
-                feel2: "4",
-                con2: "Tiene que desplazarse a agencia, explica su intenciones, le llamaran porque no hay nada interesante",
-                ima2: "cartoon-teamthinking.png",
+                /*** PASO #2: DECISION ***/ 
+                goal2: "Buscar en internet viajes a Polonia",
+                touch2: "Ordenador",
+                feel2: "2",
+                con2: "Quiere estar en Polonia durante tres semanas, y no encuentra ningún alojamiento lo suficientemente económico.",
+                ima2: "cartoon-PCangry.png",
                 
                 /*** PASO #3: ACTUA ***/ 
+                goal3: "Contacta con uno de los estudiantes polacos para que le aconseje o le recomiende algún alojamiento.",
+                touch3: "Móvil (facebook)",
+                feel3: "3",
+                con3: "No ha podido contactar con su mejor amigo dentro del grupo",
+                ima3: "cartoon-phone.png",
                 
-                goal3: "Le llaman a los pocos días con un viaje que no le convence",
-                touch3: "Móvil (llamada)",
-                feel3: "2",
-                con3: "Piensa que ha perdido el tiempo",
-                ima3: "cartoon-phoningangry.png",
+                /*** PASO #4: OBSERVA ***/   
+                goal4: "El estudiante con el que contactó le recomienda usar Coachsurfing",
+                touch4: "Móvil (facebook)",
+                feel4: "3",
+                con4: "No conoce la página y no sabe si es segura",
+                ima4: "cartoon-why.png",
                 
-                /*** PASO #4: OBSERVA ***/ 
-                
-                goal4: "Busca una oferta en hoteles cerca de playa y con parque atracciones",
-                touch4: "Móvil (webapp)",
-                feel4: "2",
-                con4: "No hay mucha información del alojamiento ni de lo que hay alrededor, aunque el precio está bien, va por la calle por lo que está incómoda",
-                ima4: "cartoon-phone-street.png",
-                
-                 /*** PASO #5: ANALIZA ***/ 
-                
-                goal5: "Reserva a traves de la aplicación ",
-                touch5: "Móvil (webapp)",
-                feel5: "3",
-                con5: "Le pide muchos datos y le resulta incómodo completar formulario",
-                ima5: "cartoon-phone-sitting.png",
+               /*** PASO #5: ANALIZA ***/ 
+                goal5: "Entra en la web de Coachsurfing y le gusta mucho porque ofrece muchas actividades para el viaje.",
+                touch5: "Ordenador",
+                feel5: "4",
+                con5: "Se ha tenido que registrar antes de poder explorar la página.",
+                ima5: "cartoon-PChappy.png",
 
                 
                 /*** PASO #6: CONCLUSION ***/ 
-                
-                goal6: "Consiguie reservar para vacaciones pero no era lo que tenía en mente",
+                goal6: "Consiguie contactar con un anfitrión en Varsovia y .",
                 touch6: "Ordenador (reserva OK)",
-                feel6: "2",
-                con6: "Tendrá que buscar más información del lugar para ver que actividades ofrece y donde aparacar!",
-                ima6: "cartoon-PChard.png",
-                
-                
+                feel6: "3",
+                con6: "Aunque el perfil del anfitrión está verificado, tiene un poco de miedo por si le deja tirado." +
+                    " Además ha tenido que introducir mucha información antes de poder hablar con el anfitrión.",
+                ima6: "cartoon-shaking.png",
                 
 			}
 		];
