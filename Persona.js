@@ -42,8 +42,8 @@ angular.module("angular", [])
 				Location: "Granada",
 				Character: "Le gusta viajar, leer. Es muy activa y le gusta salir con sus amigas.",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 1 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 2 },
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 5 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 4 },
 					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
 					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 3 }
 				], 
@@ -65,11 +65,12 @@ angular.module("angular", [])
 					
 				], 
 				Contextos: "Ahora que se que acaba de jubilar, tiene mucho tiempo libre y quiere viajar más. Lleva tres años en clases de Alemán. " +
-				"También hace yoga y natación a menudo, para mantenerse en forma. Utiliza las redes sociales desde su móvil para hablar con su familia. " +
+				"También sabe defenderse en inglés. " +
+				"Hace yoga y natación a menudo, para mantenerse en forma. Utiliza las redes sociales desde su móvil para hablar con su familia. " +
 				"Forma parte de un club de lectura. Su género literario favorito es la novela, especialmente la novela histórica",  
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional", Value: 3 },
-					{ Name: "Online & Social Media", Value: 1 },
+					{ Name: "Publicidad Tradicional", Value: 4 },
+					{ Name: "Online & Social Media", Value: 2 },
 					{ Name: "Recomendaciones & sugerencias", Value: 4 },
 					{ Name: "Persona confianza (amigos, boca a boca)", Value: 5 }
 				]
@@ -99,7 +100,8 @@ angular.module("angular", [])
 				], 
 				Goals: ["Aprender nuevos idiomas.", "Conocer gente de todo el mundo.", "Visitar todos los países de Europa."],
 				Frustrations: ["No tiene mucho dinero.", "Solo puede viajar durante sus vacaciones.", "Haber dejado de tocar el piano."],
-				Bio: "Es de Jaén y vino a Granada a estudiar Traducción e Interpretación. Vive en un piso de alquiler con otros tres estudiantes. Durante el curso, trabaja como camarero, y ahorra lo que puede para viajar durante las vacaciones.",
+				Bio: "Es de Jaén y vino a Granada a estudiar Traducción e Interpretación. Los idiomas que está aprendiendo son alemán, francés e italiano." + 
+				"Vive en un piso de alquiler con otros tres estudiantes. Durante el curso, trabaja como camarero, y ahorra lo que puede para viajar durante las vacaciones.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 4 },
 					{ Name: "Mobile", Value: 5 },

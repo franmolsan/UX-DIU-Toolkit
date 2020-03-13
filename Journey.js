@@ -19,7 +19,7 @@
 
 angular.module("angular", [])
 	.controller("controller", ["$scope", function($scope) { 
-		$scope.Grupo_ID ="DIU1.ABCDEF";
+		$scope.Grupo_ID ="DIU2.MAF";
         $scope.Curso ="2019/20";
         $scope.Github_ID ="https://github.com/mgea/UX-DIU-Toolkit";
         
@@ -34,56 +34,56 @@ angular.module("angular", [])
                 /*************************************/
                 
 				Id: 0,
-				Name: "Pedro",
-                Photo: "man.png",
+				Name: "Josefina",
+                Photo: "josefina.jpg",
     
                 /*** PASO #1: INSPIRACION ***/ 
-                goal1: "quiere preparar un viaje con sus amigos en Semana Santa",
-                touch1: "agenda",
+                goal1: "Ha visto en la televisión un programa de viajes en el que visitan Suecia, y le han dado ganas de ir.",
+                touch1: "Television",
                 feel1: "4",
-                con1: "ver cuantos días puede tener libres para organizar lugar de viaje ",
-                ima1: "cartoon-planning.png",
+                con1: "Tiene que buscar información sobre el viaje: qué lugares va a visitar, qué monumentos va a ver, cuánto tiempo durará el viaje, etc.",
+                ima1: "cartoon-resting.png",
 				
-                /*** PASO #2: DECICION ***/ 
-                goal2: "Busca en internet ofertas para esas fechas",
+                /*** PASO #2: DECISION ***/ 
+                goal2: "No sabe dónde buscar la información en internet, por lo que decide llamar a sus hijos para que le ayude",
                 touch2: "Movil",
-                feel2: "2",
-                con2: "hay demasiada información y pierde mucho tiempo, no hay precios 'baratos'",
-                ima2: "cartoon-PCangry.png",
+                feel2: "3",
+                con2: "No sabe si alguno de sus hijos estará disponible para ayudarla en ese momento.",
+                ima2: "cartoon-thinking.png",
                 
                 /*** PASO #3: ACTUA ***/ 
-                
-                goal3: "Decide buscar un alojamiento rural  en plasencia, donde hay procesiones y parece que hará buen tiempo",
-                touch3: "móvil (el tiempo)",
+                goal3: "Habla con su hijo mayor, que ya ha estado en Suecia, para que le recomiende páginas donde planear su viaje." +
+                    " Su hijo le recomienda coachsurfing, para que no esté sola en su viaje.",
+                touch3: "Móvil",
                 feel3: "3",
-                con3: "Está preocupado por el tiempo y el desplazamiento (coche y aparcamiento)",
-                ima3: "cartoon-phone.png",
+                con3: "No conoce coachsurfing y no le suena muy bien. Aun así, como se lo ha recomendado su hijo, le da una oportunidad.",
+                ima3: "cartoon-phoning.png",
                 
                 /*** PASO #4: OBSERVA ***/ 
-                
-                goal4: "Los amigos le recomiendan una página para escoger alojamientos",
-                touch4: "ordenador",
-                feel4: "4",
-                con4: "Buscar opciones en el lugar que había seleccionado, viendo precios y distancias, tiene que ver si hay aparcamiento fácil",
-                ima4: "cartoon-PCtyping.png",
+                goal4: "Busca en su móvil la página de coachsurfing ",
+                touch4: "Móvil (navegador web)",
+                feel4: "2",
+                con4: "Se tiene que registrar antes de buscar alojamiento, y es tedioso rellenar el formulario.",
+                ima4: "cartoon-phone-sitting.png",
                 
                  /*** PASO #5: ANALIZA ***/ 
-                
-                goal5: "Se encuentra 3 opciones que encajan en sus preferencias",
-                touch5: "móvil (whatsapp)",
-                feel5: "2",
-                con5: "Llama a sus amigos (whatsapp no responen) para ver cual es su preferencia, tienen que reservar rápido por los precios",
-                ima5: "cartoon-phoning.png",
+                goal5: "Una vez entra a la página, consigue buscar anfitriones para su viaje",
+                touch5: "móvil (navegador web)",
+                feel5: "1",
+                con5: "La web le parece un poco confusa, pues hay muchas opciones." + 
+                " Además debe seleccionar varios anfitriones porque no todos los días están disponibles." + 
+                " Tampoco se fía demasiado de los anfitriones, porque no hay muchos verificados por la plataforma. ",
+                ima5: "cartoon-PCangry.png",
                 
                 
                 /*** PASO #6: CONCLUSION ***/ 
                 
-                goal6: "Consigue reservar, otro año se encarga otro!",
-                touch6: "ordenador",
-                feel6: "3",
-                con6: "algunos amigos no confirmaron por lo que tuvo que seleccionar reserva con posibilidad de cancelación",
-                ima6: "cartoon-resting.png",
-                
+                goal6: "No le gusta ni la página ni el servicio, por lo que decide que lo más sencillo es ir a una agencia de viajes",
+                touch6: "Servicio (agencia)",
+                feel6: "2",
+                con6: "Sabe que el viaje le va a resultar más caro que si lo buscara online.",
+                ima6: "cartoon-phoningAngry.png",
+
 			},
 			{	
                 /*************************************/
