@@ -53,14 +53,14 @@ angular.module("angular", [])
                 
                 /*** PASO #3: ACTUA ***/ 
                 goal3: "Habla con su hijo mayor, que ya ha estado en Suecia, para que le recomiende páginas donde planear su viaje." +
-                    " Su hijo le recomienda coachsurfing, para que no esté sola en su viaje.",
+                    " Su hijo le recomienda couchsurfing, para que no esté sola en su viaje.",
                 touch3: "Móvil",
                 feel3: "3",
-                con3: "No conoce coachsurfing y no le suena muy bien. Aun así, como se lo ha recomendado su hijo, le da una oportunidad.",
+                con3: "No conoce couchsurfing y no le suena muy bien. Aun así, como se lo ha recomendado su hijo, le da una oportunidad.",
                 ima3: "cartoon-phoning.png",
                 
                 /*** PASO #4: OBSERVA ***/ 
-                goal4: "Busca en su móvil la página de coachsurfing ",
+                goal4: "Busca en su móvil la página de couchsurfing ",
                 touch4: "Móvil (navegador web)",
                 feel4: "2",
                 con4: "Se tiene que registrar antes de buscar alojamiento, y es tedioso rellenar el formulario.",
@@ -70,15 +70,16 @@ angular.module("angular", [])
                 goal5: "Una vez entra a la página, consigue buscar anfitriones para su viaje",
                 touch5: "móvil (navegador web)",
                 feel5: "1",
-                con5: "La web le parece un poco confusa, pues hay muchas opciones." + 
-                " Además debe seleccionar varios anfitriones porque no todos los días están disponibles." + 
-                " Tampoco se fía demasiado de los anfitriones, porque no hay muchos verificados por la plataforma. ",
+                con5: "La web le parece un poco confusa, pues hay muchas opciones. Accede a la ayuda, pero está en inglés. "+ 
+                " Le ha costado incluso buscar un destino porque la búsqueda se realiza en inglés, pero no está indicado. " + 
+                " Además no le ha gustado porque tiene que introducir mucha información personal que ella no consiedera" +
+                " relevante, como los 'hobbies' o fotos suyas; simplemente para poder contactar con un anfitrión." + 
+                " Tampoco se fía demasiado de los anfitriones, porque no todos están verificados por la plataforma. ",
                 ima5: "cartoon-PCangry.png",
                 
                 
                 /*** PASO #6: CONCLUSION ***/ 
-                
-                goal6: "No le gusta ni la página ni el servicio, por lo que decide que lo más sencillo es ir a una agencia de viajes",
+                goal6: "No le gusta ni la página ni el servicio, por lo que decide que lo más sencillo es llamar a una agencia de viajes",
                 touch6: "Servicio (agencia)",
                 feel6: "2",
                 con6: "Sabe que el viaje le va a resultar más caro que si lo buscara online.",
@@ -117,14 +118,14 @@ angular.module("angular", [])
                 ima3: "cartoon-phone.png",
                 
                 /*** PASO #4: OBSERVA ***/   
-                goal4: "El estudiante con el que contactó le recomienda usar Coachsurfing",
+                goal4: "El estudiante con el que contactó le recomienda usar couchsurfing",
                 touch4: "Móvil (facebook)",
                 feel4: "3",
                 con4: "No conoce la página y no sabe si es segura",
                 ima4: "cartoon-why.png",
                 
                /*** PASO #5: ANALIZA ***/ 
-                goal5: "Entra en la web de Coachsurfing y le gusta mucho porque ofrece muchas actividades para el viaje.",
+                goal5: "Entra en la web de couchsurfing y le gusta mucho porque ofrece muchas actividades para el viaje.",
                 touch5: "Ordenador",
                 feel5: "4",
                 con5: "Se ha tenido que registrar antes de poder explorar la página.",
@@ -132,7 +133,7 @@ angular.module("angular", [])
 
                 
                 /*** PASO #6: CONCLUSION ***/ 
-                goal6: "Consiguie contactar con un anfitrión en Varsovia y .",
+                goal6: "Consiguie contactar con un anfitrión en Varsovia y llegó a un acuerdo para alojarse.",
                 touch6: "Ordenador (reserva OK)",
                 feel6: "3",
                 con6: "Aunque el perfil del anfitrión está verificado, tiene un poco de miedo por si le deja tirado." +

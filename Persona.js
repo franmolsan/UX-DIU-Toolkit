@@ -53,6 +53,7 @@ angular.module("angular", [])
 				    "y con 27 el segundo. Se divorció con 48 años. " + 
 					"Su hijo mayor estudió arquitectura y su hijo pequeño estudió ingeniería aeroespacial. Despues de terminar la carrera, ambos se fueron a trabajar a Alemania, donde se han casado y han tenido hijos. " +
 					"Josefina los ha visitado todos los años desde que se fueron, hace ya 15 años. Tras estas visitas, se ha despertó su interés por los viajes: desde entonces, ha ido a Londres, Viena, París, Roma, Milán, Florencia, Praga y Cracovia. " +
+					"Antes viajaba con sus hijos, pero ahora que se han asentado y son padres, ya no puede viajar con ellos. Sus dos úlitmos viajes (a Praga y a Cracovia) los ha realizado sola, y le ha gustado la experiencia. " +
 					"Después de divorciarse, perdió el contacto con su exmarido. Tuvo otras dos parejas pero no conectó con ninguno. " +
 					"Tiene muchas amigas con las que queda casi diariamente; es parte de asociaciones de vecinos y de un club de lectura. También está apuntada a clases de Alemán. " +
 					"Lleva diez años apuntada a un gimnasio, va todos los lunes y jueves a clase de yoga, y los martes y viernes a natación. " +
